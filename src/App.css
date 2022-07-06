@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form {
+  padding: 0 5px;
+  font-family: "FontSubHeading";
+}
+
+.input__custom {
+  border-radius: 9px;
+  border: 1.25px solid #000;
+  padding: 10px 15px;
+  position: relative;
+  margin: 30px 0;
+}
+
+.input__custom span {
+  position: absolute;
+  top: -6px;
+  font-size: 10px;
+  padding: 0 8px;
+  background: #ffffff;
+  pointer-events: none;
+  color: #000;
+}
+
+.input__custom input,
+.input__custom select {
+  font-size: 10px;
+  outline: none;
+  width: 100%;
+  height: 20px;
+  border: none;
+  background: transparent;
+}
+
+jw-modal .jw-modal .jw-modal-body .jw-modal-btn-row {
+  justify-content: space-between;
+  margin: 20px 0 0;
+}
+
+.btn {
+  font-size: 14px;
+  font-family: "FontContent";
+  width: 48%;
+  height: 35px;
+  padding: 0 10px;
+  text-align: center;
+  border: solid 1px #000000;
+}
+
+.cancel__modal {
+  width: 12px;
+  height: 12px;
+  fill: #000;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
