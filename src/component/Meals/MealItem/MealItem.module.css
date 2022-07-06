@@ -1,0 +1,78 @@
+.meal {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.meal h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+.image {
+  width: 110px;
+  height: 110px;
+  position: relative;
+  margin-right: 10px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.details {
+  justify-content: space-between;
+  margin: -3px 0;
+}
+
+.details .item__name {
+  margin: 0 15px 6px 0;
+  font-size: 14px;
+}
+
+.item__price {
+  font-family: "FontHeading";
+  font-size: 14px;
+}
+
+.description {
+  font-style: italic;
+}
+
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.25rem;
+}
+
+.menu_card {
+  margin: 8px 0;
+  background: #ffffff;
+  padding: 8px;
+  display: flex;
+}
+
+.details .item__description {
+  font-size: 12px;
+  font-family: "FontContent";
+  word-break: break-word;
+  padding: 1px 2px;
+}
+
+@media (min-width: 100px) {
+  .menu_card {
+    padding: 0;
+  }
+  .image {
+    width: 50px;
+    height: 63px;
+  }
+}
+
+.veg {
+  position: sticky;
+  right: 290px;
+  top: 86px;
+  height: 10px;
+  width: 10px;
+}

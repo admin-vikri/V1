@@ -1,0 +1,45 @@
+/* .imgg{
+    position: relative;
+    top: -10rem;
+    left: 94%;
+    opacity: 50%;
+    1440
+} */
+
+.imggg {
+  position: relative;
+  top: -110px;
+  left: 1400px;
+  opacity: 50%;
+  background: rgb(231, 148, 148);
+}
+@media (min-width: 1000) {
+  .imggg {
+    position: relative;
+    top: -110px;
+    left: 1000px;
+    opacity: 50%;
+    background: rgb(34, 20, 20);
+  }
+}
+@media (min-width: 800) {
+  .imggg {
+    position: relative;
+    top: -110px;
+    left: 800px;
+    opacity: 50%;
+    background: brown;
+  }
+}
+@media (min-width: 600) {
+  .imggg {
+    left: 600px;
+    background-color: rgb(17, 49, 33);
+  }
+}
+@media (min-width: 500) {
+  .imggg {
+    left: 500px;
+    background-color: rgb(63, 46, 158);
+  }
+}
