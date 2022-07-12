@@ -38,6 +38,9 @@ import MainCourse from "./component/Pages/NewLayout/MainCourse";
 import Desserts from "./component/Pages/NewLayout/Deserts";
 import MilkShakes from "./component/Pages/NewLayout/Milk Shakes";
 import Sizzlers from "./component/Pages/NewLayout/Sizzlers";
+import TestZaika from "./component/Pages/Product4/TestZaika";
+import TestDhaba from "./component/Pages/Product3/TestDhaba";
+import TestTaj from "./component/Pages/Product2/TestTaj";
 
 const TRACKING_ID = "UA-233414864-1";
 ReactGA.initialize(TRACKING_ID);
@@ -58,6 +61,12 @@ function App() {
     loc = "Swaad Restaurant";
   } else if (url === "/003067PPKN") {
     loc = "The Pour Pure";
+  } else if (url === "/TestZaika") {
+    loc = "Test Zaika";
+  } else if (url === "/TestDhaba") {
+    loc = "Test Dhaba";
+  } else if (url === "/TestTaj") {
+    loc = "Test Taj";
   }
   useEffect(() => {
     setShowForm(true);
@@ -65,7 +74,10 @@ function App() {
   }, []);
 
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    console.log(window.location.pathname);
+    console.log(window.location.search);
+    // ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.pageview(url + window.location.search);
   });
 
   const showCartHandler = () => {
@@ -172,6 +184,9 @@ function App() {
               <Route path="/001067RIKN" element={<Redindies />} exact />
               <Route path="/002209DNSP" element={<Dwarka />} exact />
               <Route path="/006014SD" element={<Swaad />} />
+              <Route path="/TestZaika" element={<TestZaika />} />
+              <Route path="/TestDhaba" element={<TestDhaba />} />
+              <Route path="/TestTaj" element={<TestTaj />} />
               <Route path="/003067PPKN" element={<Pourpure />} />
               <Route path="/soup" element={<Soup />} />
               <Route path="/lasagne" element={<Lasagne />} />

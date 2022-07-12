@@ -53,7 +53,6 @@ function AvailableMeals(props) {
       top: 0,
       behavior: "smooth",
     });
-    console.log(input);
     if (input === "Chotas" || input === "Chinese Starters") {
       mainRoot = document.getElementById("chotas");
       chotasRef.current &&
@@ -251,7 +250,6 @@ function AvailableMeals(props) {
 
   let mealss;
   useEffect(() => {
-    console.log("useefect");
     if (props.url === "/001067RIKN") {
       if (cartCtx.isVeg === "veg") {
         mealss = redindies.filter((item) => item.veg === cartCtx.isVeg);
@@ -311,7 +309,6 @@ function AvailableMeals(props) {
     // console.log(unique);
     // setFilteredCategory(unique);
   };
-  console.log(props.allcat);
   //REDINDIES
   return (
     <section className={classes.meals}>
@@ -449,7 +446,10 @@ function AvailableMeals(props) {
           {props.filteredItems[21]}
         </div>
         <ul>{props.mealsListMilkS}</ul>
-        <a href="https://menu-venture.github.io/Vikri/">
+        <a
+          style={{ textAlign: "center" }}
+          href="https://menu-venture.github.io/Vikri/"
+        >
           <h4>
             Powered by{" "}
             <span style={{ fontSize: "18px", fontStyle: "italic" }}>
