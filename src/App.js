@@ -54,8 +54,11 @@ function App() {
   const sampleLocation = useLocation();
   let loc;
   const url = sampleLocation.pathname;
-
-  if (url === "/001067RIKN") {
+  console.log(url)
+if (url === "/") {
+    window.location.href = "https://menu-venture.github.io/Vikri/";
+  }
+  else if (url === "/001067RIKN") {
     loc = "Red Indies";
   } else if (url === "/006014SD") {
     loc = "Swaad Restaurant";
