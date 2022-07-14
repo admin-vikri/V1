@@ -26,7 +26,6 @@ import Modal from "./component/UI/Modal/Modal";
 import cancel from "./assets/x.png";
 import "./App.css";
 import Card from "./component/UI/Card/Card";
-import LayoutPage from "./component/Pages/NewLayout/LayoutPage";
 // import Home from "./component/Pages/NewLayout/Home";
 import Soup from "./component/Pages/NewLayout/Soup";
 import Feedback from "./component/Pages/Feedback/Feedback";
@@ -41,6 +40,7 @@ import Sizzlers from "./component/Pages/NewLayout/Sizzlers";
 import TestZaika from "./component/Pages/Product4/TestZaika";
 import TestDhaba from "./component/Pages/Product3/TestDhaba";
 import TestTaj from "./component/Pages/Product2/TestTaj";
+import RedindiesPdf from "./component/Pages/Product1/RedindiesPdf";
 
 const TRACKING_ID = "UA-233414864-1";
 ReactGA.initialize(TRACKING_ID);
@@ -54,11 +54,10 @@ function App() {
   const sampleLocation = useLocation();
   let loc;
   const url = sampleLocation.pathname;
-  console.log(url)
-if (url === "/") {
+  console.log(url);
+  if (url === "/") {
     window.location.href = "https://menu-venture.github.io/Vikri/";
-  }
-  else if (url === "/001067RIKN") {
+  } else if (url === "/001067RIKN") {
     loc = "Red Indies";
   } else if (url === "/006014SD") {
     loc = "Swaad Restaurant";
@@ -203,18 +202,6 @@ if (url === "/") {
             </Routes>
           </main>
         </CartProvider>
-
-        // <>
-        //   <div>
-        //     <LayoutPage>
-        //       <Routes>
-        //         <Route path="/" element={<Home />} exact />
-        //         <Route path="/soup" element={<Soup />} />
-        //         <Route path="/faq" component={<Faq />} />
-        //       </Routes>
-        //     </LayoutPage>
-        //   </div>
-        // </>
       )}
     </>
   );
