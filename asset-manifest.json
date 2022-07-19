@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cffd57d.css",
-    "main.js": "/static/js/main.e89bbee3.js",
+    "main.css": "/static/css/main.99efebc0.css",
+    "main.js": "/static/js/main.a25d7b92.js",
+    "static/media/LuckyResto.pdf": "/static/media/LuckyResto.40c39d8305e100153669.pdf",
     "static/media/noodles.jpg": "/static/media/noodles.e15822c7b28dc6bf79a9.jpg",
+    "static/media/Pourpure.pdf": "/static/media/Pourpure.aea528c3d469edcbfe78.pdf",
     "static/media/Guide Me.pdf": "/static/media/Guide Me.925ac470da7a5f812ca9.pdf",
     "static/media/pizza.jpg": "/static/media/pizza.7d91c85e7ed8c03814e9.jpg",
     "static/media/lasagna.jpg": "/static/media/lasagna.2c7172e0e3497dc14a8e.jpg",
+    "static/media/redindies.pdf": "/static/media/redindies.654a431a77909520a6df.pdf",
+    "static/media/swaad.pdf": "/static/media/swaad.7964e7c045aea80e2340.pdf",
     "static/media/starters.jpg": "/static/media/starters.831f7114f61c13a966f6.jpg",
+    "static/media/dwarka.pdf": "/static/media/dwarka.aaa098232e4e2b2016d4.pdf",
     "static/media/soup.jpg": "/static/media/soup.1cf0b6731ea568432457.jpg",
+    "static/media/SaharaBeveges.pdf": "/static/media/SaharaBeveges.8965e13f492916490390.pdf",
     "static/media/logo.png": "/static/media/logo.4fb6b1133efbf6dc8956.png",
     "static/media/pizza2.png": "/static/media/pizza2.a248f6eeddebef03d0ef.png",
     "static/media/garlicnaan.png": "/static/media/garlicnaan.7b33cb0c8d94e2d898eb.png",
@@ -31,11 +37,11 @@
     "static/media/roll.png": "/static/media/roll.2fbea17b08a64ed2c742.png",
     "static/media/name.png": "/static/media/name.6e3c38d4baba60b80253.png",
     "index.html": "/index.html",
-    "main.5cffd57d.css.map": "/static/css/main.5cffd57d.css.map",
-    "main.e89bbee3.js.map": "/static/js/main.e89bbee3.js.map"
+    "main.99efebc0.css.map": "/static/css/main.99efebc0.css.map",
+    "main.a25d7b92.js.map": "/static/js/main.a25d7b92.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cffd57d.css",
-    "static/js/main.e89bbee3.js"
+    "static/css/main.99efebc0.css",
+    "static/js/main.a25d7b92.js"
   ]
 }
