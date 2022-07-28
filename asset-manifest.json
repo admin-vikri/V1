@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1e31f215.css",
-    "main.js": "/static/js/main.775f70ae.js",
+    "main.js": "/static/js/main.ad656f2f.js",
     "static/media/LuckyResto.pdf": "/static/media/LuckyResto.40c39d8305e100153669.pdf",
     "static/media/noodles.jpg": "/static/media/noodles.e15822c7b28dc6bf79a9.jpg",
     "static/media/Pourpure.pdf": "/static/media/Pourpure.aea528c3d469edcbfe78.pdf",
@@ -38,10 +38,10 @@
     "static/media/name.png": "/static/media/name.6e3c38d4baba60b80253.png",
     "index.html": "/index.html",
     "main.1e31f215.css.map": "/static/css/main.1e31f215.css.map",
-    "main.775f70ae.js.map": "/static/js/main.775f70ae.js.map"
+    "main.ad656f2f.js.map": "/static/js/main.ad656f2f.js.map"
   },
   "entrypoints": [
     "static/css/main.1e31f215.css",
-    "static/js/main.775f70ae.js"
+    "static/js/main.ad656f2f.js"
   ]
 }
